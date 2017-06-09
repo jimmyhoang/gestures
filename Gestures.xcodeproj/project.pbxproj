@@ -13,6 +13,10 @@
 		FF4972721EE9FBEE00CFD44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4972711EE9FBEE00CFD44D /* Assets.xcassets */; };
 		FF4972751EE9FBEE00CFD44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4972731EE9FBEE00CFD44D /* LaunchScreen.storyboard */; };
 		FF4972801EE9FBEE00CFD44D /* GesturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49727F1EE9FBEE00CFD44D /* GesturesTests.m */; };
+		FF49728C1EEA115900CFD44D /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49728B1EEA115900CFD44D /* PanViewController.m */; };
+		FF49728F1EEA117300CFD44D /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49728E1EEA117300CFD44D /* TapViewController.m */; };
+		FF4972921EEA266400CFD44D /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4972911EEA266400CFD44D /* PinchViewController.m */; };
+		FF4972951EEA2F9D00CFD44D /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4972941EEA2F9D00CFD44D /* SwipeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,14 @@
 		FF49727B1EE9FBEE00CFD44D /* GesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF49727F1EE9FBEE00CFD44D /* GesturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesTests.m; sourceTree = "<group>"; };
 		FF4972811EE9FBEE00CFD44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF49728A1EEA115900CFD44D /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		FF49728B1EEA115900CFD44D /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		FF49728D1EEA117300CFD44D /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		FF49728E1EEA117300CFD44D /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		FF4972901EEA266400CFD44D /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		FF4972911EEA266400CFD44D /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		FF4972931EEA2F9D00CFD44D /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		FF4972941EEA2F9D00CFD44D /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,14 @@
 			isa = PBXGroup;
 			children = (
 				FF49726E1EE9FBEE00CFD44D /* Main.storyboard */,
+				FF49728A1EEA115900CFD44D /* PanViewController.h */,
+				FF49728B1EEA115900CFD44D /* PanViewController.m */,
+				FF49728D1EEA117300CFD44D /* TapViewController.h */,
+				FF49728E1EEA117300CFD44D /* TapViewController.m */,
+				FF4972901EEA266400CFD44D /* PinchViewController.h */,
+				FF4972911EEA266400CFD44D /* PinchViewController.m */,
+				FF4972931EEA2F9D00CFD44D /* SwipeViewController.h */,
+				FF4972941EEA2F9D00CFD44D /* SwipeViewController.m */,
 				FF4972651EE9FBEE00CFD44D /* Supporting Files */,
 			);
 			path = Gestures;
@@ -208,7 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF49728C1EEA115900CFD44D /* PanViewController.m in Sources */,
 				FF49726A1EE9FBEE00CFD44D /* AppDelegate.m in Sources */,
+				FF4972921EEA266400CFD44D /* PinchViewController.m in Sources */,
+				FF4972951EEA2F9D00CFD44D /* SwipeViewController.m in Sources */,
+				FF49728F1EEA117300CFD44D /* TapViewController.m in Sources */,
 				FF4972671EE9FBEE00CFD44D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +430,7 @@
 				FF4972861EE9FBEE00CFD44D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF4972871EE9FBEE00CFD44D /* Build configuration list for PBXNativeTarget "GesturesTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +439,7 @@
 				FF4972891EE9FBEE00CFD44D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
