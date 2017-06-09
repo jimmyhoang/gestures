@@ -24,6 +24,8 @@
                         <segue destination="mBN-lO-srj" kind="relationship" relationship="viewControllers" id="FfP-hD-mou"/>
                         <segue destination="umJ-m9-axi" kind="relationship" relationship="viewControllers" id="Dag-om-J12"/>
                         <segue destination="Llj-g0-p10" kind="relationship" relationship="viewControllers" id="HKi-FO-RCI"/>
+                        <segue destination="PKp-aW-5nS" kind="relationship" relationship="viewControllers" id="np1-Ee-hzE"/>
+                        <segue destination="cPE-7R-VoQ" kind="relationship" relationship="viewControllers" id="7y5-Z3-9Wt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T88-uY-T7x" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -87,6 +89,25 @@
             </objects>
             <point key="canvasLocation" x="819" y="-378"/>
         </scene>
+        <!--Edge-->
+        <scene sceneID="9HP-G4-siJ">
+            <objects>
+                <viewController title="Edge" id="cPE-7R-VoQ" customClass="EdgeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tLN-4i-gjo"/>
+                        <viewControllerLayoutGuide type="bottom" id="kKq-d3-aDd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ttH-hB-Lic">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Edge" image="item6" id="UgP-HK-4p5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8c-2X-2Pn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862" y="-378"/>
+        </scene>
         <!--Pan-->
         <scene sceneID="ROo-Te-3Bi">
             <objects>
@@ -122,12 +143,33 @@
             </objects>
             <point key="canvasLocation" x="-81" y="-832"/>
         </scene>
+        <!--Rotation-->
+        <scene sceneID="opU-i9-aH5">
+            <objects>
+                <viewController id="PKp-aW-5nS" customClass="RotationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vm4-W1-E1U"/>
+                        <viewControllerLayoutGuide type="bottom" id="jUw-qE-QRx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BCn-uN-e6E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.1698060929775238" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rotation" image="item5" id="I4h-mh-eZA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jS6-KR-ujJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="819" y="-1139"/>
+        </scene>
     </scenes>
     <resources>
         <image name="item1" width="30" height="30"/>
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
+        <image name="item5" width="30" height="30"/>
+        <image name="item6" width="30" height="30"/>
     </resources>
     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
 </document>

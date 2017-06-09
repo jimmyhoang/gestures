@@ -9,8 +9,6 @@
 #import "SwipeViewController.h"
 
 @interface SwipeViewController ()
-
-@property (nonatomic, assign) BOOL open;
 @property (nonatomic, weak) UIView* brownView;
 @property (nonatomic, weak) UIView* whiteView;
 @property (nonatomic, strong) NSLayoutConstraint* whiteViewRightConstraint;
